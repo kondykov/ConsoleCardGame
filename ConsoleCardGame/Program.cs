@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using ConsoleCardGame.UserInterface.Pages;
+using Spectre.Console;
+
+
+HomePage homePage = new();
+homePage.View();
+
+
