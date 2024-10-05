@@ -22,4 +22,9 @@ public class Page
     {
         WritePageTitle();
     }
+
+    public virtual async Task Update()
+    {
+        
+    }
 }
